@@ -84,7 +84,7 @@ def main(players, output="tournament_schedule.xlsx", double_round=False):
 
 if __name__ == "__main__":
     # Define your inputs here:
-    players = ["Victor Emil", "Christoffer", "Nis", "Frederik Hansen", "Ask", "Stefan", "William", "lucas", "Mark", "Mads"]
+    players = ["Victor Emil", "Christoffer", "Nis", "Frederik Hansen", "Ask", "Stefan", "William", "Lucas", "Mark", "Mads"]
     output_file = r"tournament_sheets/mtg_2025_09_27.xlsx" #"example_tournament.xlsx"
     double_round = len(players) <= 6  # Set True for double round robin (e.g. with 6 players)
 
