@@ -83,9 +83,12 @@ def main(players, output="tournament_schedule.xlsx", double_round=False):
     print("Sheets: Schedule, Points, Standings.")
 
 if __name__ == "__main__":
+
     # Define your inputs here:
-    players = ["Victor Emil", "Christoffer", "Nis", "Frederik Hansen", "Ask", "Stefan", "William", "Lucas", "Mark", "Mads"]
-    output_file = r"tournament_sheets/mtg_2025_09_27.xlsx" #"example_tournament.xlsx"
+    players = ["Victor Emil", "Ask", "Aske", "Christoffer", "Frederik Hansen", "Marc", "Nis", "Stefan", "Waldemar", "William"]
+    #players = ["Victor Emil", "Lucas", "William", "Stefan", "Frederik Hansen", "Marc", "Ask", "Bye"]
+    #["Victor Emil", "Christoffer", "Nis", "Frederik Hansen", "Ask", "Stefan", "William", "Lucas", "Mark", "Mads"]
+    output_file = r"tournament_sheets/mtg_2025_11_22.xlsx" #"example_tournament.xlsx"
     double_round = len(players) <= 6  # Set True for double round robin (e.g. with 6 players)
 
     main(players, output=output_file, double_round=double_round)
